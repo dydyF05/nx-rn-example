@@ -1,0 +1,17 @@
+{
+  "name": "mobile-ui-shared",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/mobile/ui/shared/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "check-types": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "cwd": "libs/mobile/ui/shared",
+        "command": "npx tsc -p tsconfig.lib.json --noEmit --skipLibCheck && npx tsc -p tsconfig.spec.json --noEmit --skipLibCheck"
+      }
+    }
+  }
+}

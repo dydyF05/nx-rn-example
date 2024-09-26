@@ -1,0 +1,13 @@
+diff --git a/node_modules/@nx/react-native/src/generators/application/lib/create-application-files.js b/node_modules/@nx/react-native/src/generators/application/lib/create-application-files.js
+index 6b599e8..a174d8a 100644
+--- a/node_modules/@nx/react-native/src/generators/application/lib/create-application-files.js
++++ b/node_modules/@nx/react-native/src/generators/application/lib/create-application-files.js
+@@ -4,7 +4,7 @@ exports.createApplicationFiles = createApplicationFiles;
+ const devkit_1 = require("@nx/devkit");
+ const js_1 = require("@nx/js");
+ const path_1 = require("path");
+-const onboarding_1 = require("nx/src/nx-cloud/utilities/onboarding");
++const onboarding_1 = require("@nx/react-native/node_modules/@nx/workspace/node_modules/nx/src/nx-cloud/utilities/onboarding.js");
+ async function createApplicationFiles(host, options) {
+     const onBoardingStatus = await (0, onboarding_1.createNxCloudOnboardingURLForWelcomeApp)(host, options.nxCloudToken);
+     const connectCloudUrl = onBoardingStatus === 'unclaimed' &&

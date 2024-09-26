@@ -1,0 +1,41 @@
+{
+  "name": "mobile",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/mobile/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{workspaceRoot}/lint-report/reports/apps.apps/mobile.json"],
+      "dependsOn": ["^gql-generate"],
+      "configurations": {
+        "ci": {
+          "outputFile": "lint-report/reports/apps.apps/mobile.json",
+          "format": "json"
+        }
+      }
+    },
+    "sync-asset": {
+      "command": "cd apps/mobile && npx react-native-asset"
+    },
+    "check-types": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "cwd": "apps/mobile",
+        "command": "npx tsc -p tsconfig.app.json --noEmit --skipLibCheck && npx tsc -p tsconfig.spec.json --noEmit --skipLibCheck"
+      }
+    },
+    "ensure-symlink": {
+      "executor": "@nx/react-native:ensure-symlink",
+      "options": {}
+    },
+    "clean-cache": {
+      "executor": "nx:run-script",
+      "options": {
+        "command": "cd apps/mobile && npx react-native-clean-project"
+      }
+    }
+  }
+}

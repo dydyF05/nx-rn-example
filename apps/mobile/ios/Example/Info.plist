@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Example</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>example</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>example</string>
+			</array>
+		</dict>
+		<dict/>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAdvertisingAttributionReportEndpoint</key>
+	<string>https://appsflyer-skadnetwork.com/</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSAllowsArbitraryLoads</key>
+	<false/>
+	<key>NSAllowsLocalNetworking</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Activer le son des audios pendant votre randonnée</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Donner à $(PRODUCT_NAME) la permission d'accéder à votre appareil photo. Ces photos seront utilisées uniquement dans le cadre de votre photo de profil. Les photos ne seront pas utilisées à des fins commerciales ou marketing. Celles-ci resteront dans le cadre privé de votre profil dans l'application</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Donner à $(PRODUCT_NAME) la permission d'utiliser votre microphone dans le cas d'une vidéo</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Donner à $(PRODUCT_NAME) la permission d'enregistrer des photos. Ces photos seront utilisées uniquement dans le cadre de votre photo de profil. Les photos ne seront pas utilisées à des fins commerciales ou marketing. Celles-ci resteront dans le cadre privé de votre profil dans l'application</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Donner à $(PRODUCT_NAME) la permission d'accéder à vos photos. Ces photos seront utilisées uniquement dans le cadre de votre photo de profil. Les photos ne seront pas utilisées à des fins commerciales ou marketing. Celles-ci resteront dans le cadre privé de votre profil dans l'application</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>$(PRODUCT_NAME) souhaite ton autorisation pour suivre ton identifiant unique sur des applications et sites webs appartenant à des tiers. Cet identifiant sera utilisé pour collecter des cookies sur ton activité sur Internet.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Ionicons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>Radomir Tinkov QanelasSoftBlack.otf</string>
+		<string>Radomir Tinkov QanelasSoftBlackItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftBold.otf</string>
+		<string>Radomir Tinkov QanelasSoftBoldItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftExtraBold.otf</string>
+		<string>Radomir Tinkov QanelasSoftExtraBoldItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftHeavy.otf</string>
+		<string>Radomir Tinkov QanelasSoftHeavyItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftLight.otf</string>
+		<string>Radomir Tinkov QanelasSoftLightItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftMedium.otf</string>
+		<string>Radomir Tinkov QanelasSoftMediumItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftRegular.otf</string>
+		<string>Radomir Tinkov QanelasSoftRegularItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftSemiBold.otf</string>
+		<string>Radomir Tinkov QanelasSoftSemiBoldItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftThin.otf</string>
+		<string>Radomir Tinkov QanelasSoftThinItalic.otf</string>
+		<string>Radomir Tinkov QanelasSoftUltraLight.otf</string>
+		<string>Radomir Tinkov QanelasSoftUltraLightItalic.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UILaunchStoryboardName</key>
+	<string>BootSplash</string>
+</dict>
+</plist>

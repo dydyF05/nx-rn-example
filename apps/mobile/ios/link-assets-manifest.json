@@ -1,0 +1,85 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftBlack.otf",
+      "sha1": "647f07ff4d9c8c929ba8be08aaacd874b18a4a5f"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftBlackItalic.otf",
+      "sha1": "ed7e47e3ffa8a61c7ee0c8fee0ba9596daafc926"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftBold.otf",
+      "sha1": "d41d7dd86db8f6460ea63550dab8dfaf00235267"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftBoldItalic.otf",
+      "sha1": "51db9841124ba7de22603ef6bcecad12df29a1b9"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftExtraBold.otf",
+      "sha1": "f23c94dba636421d92a41bd110bba4c599a01092"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftExtraBoldItalic.otf",
+      "sha1": "0629282c94e31718e0a057c098152560a09a1743"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftHeavy.otf",
+      "sha1": "e9f9080de48469937bca5943b13beec025aafcf5"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftHeavyItalic.otf",
+      "sha1": "4a8436e03c0511236bb6634ca357290adc28a158"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftLight.otf",
+      "sha1": "8da54feea8093488f83b627f36d1202f197f08ab"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftLightItalic.otf",
+      "sha1": "3e6b86a77a93b5df06eda65059423669efa72092"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftMedium.otf",
+      "sha1": "41e368ad6a05ade7d9a935fcd8e7472ae3455e48"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftMediumItalic.otf",
+      "sha1": "5abcd324826beca0fb812b009435feb24464211f"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftRegular.otf",
+      "sha1": "dcdb8671532c0c3351b9d8eee33ab1b2b80a28ef"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftRegularItalic.otf",
+      "sha1": "171402bce35f166bb9473fe654798fc56cb0c3d6"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftSemiBold.otf",
+      "sha1": "29545b9e7d43eb10e35b503d5c29eaeb3fb35fd0"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftSemiBoldItalic.otf",
+      "sha1": "65740edc6e5b91a07c29bd39cedaa6b81d4c3047"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftThin.otf",
+      "sha1": "04a77225b787bb12dd2bc55b523111d59e5199d8"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftThinItalic.otf",
+      "sha1": "fa7781aa7698f4dd70df642f00ff82f0fcd0c4ec"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftUltraLight.otf",
+      "sha1": "b9d3fa6239c281ea8664ababc67bb0d880cdf051"
+    },
+    {
+      "path": "../../libs/mobile/ui/shared/src/lib/assets/fonts/Radomir Tinkov QanelasSoftUltraLightItalic.otf",
+      "sha1": "1e7bf6436bd53592b57db0c9e9aa9a07188d3c13"
+    }
+  ]
+}
