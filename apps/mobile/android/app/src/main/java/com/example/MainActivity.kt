@@ -26,7 +26,7 @@ class MainActivity : ReactActivity() {
    * Added for react-native-screens
    */
   override fun onCreate(savedInstanceState: Bundle?) {
-    RNBootSplash.init(this, R.style.BootTheme); /** Added for react-native-bootsplash */
+    RNBootSplash.init(this, R.style.BootTheme) /** Added for react-native-bootsplash */
     super.onCreate(null) /** Added for react-native-screens and react-native-bootsplash */
   }
 }
